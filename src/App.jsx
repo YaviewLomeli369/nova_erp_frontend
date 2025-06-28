@@ -1,19 +1,19 @@
+import React from "react";
+import { Button } from "@/components/ui/button"
 import './App.css'
+
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-700 via-pink-500 to-red-500 flex items-center justify-center p-8">
-      <div className="bg-white rounded-2xl shadow-xl p-10 text-center max-w-md">
-        <h1 className="text-5xl font-extrabold text-gray-800 mb-6">
-          🚀 Nova ERP + Tailwind
-        </h1>
-        <p className="text-lg text-gray-600">
-          Estilos funcionando al 100% con Tailwind CSS v3
-        </p>
-        <button className="mt-6 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md">
-          ¡Vamos allá!
-        </button>
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-tr from-purple-800 via-fuchsia-600 to-red-500 text-white">
+      <div className="bg-white p-10 rounded-2xl shadow-2xl text-center max-w-md w-full text-gray-800">
+        <h1 className="text-3xl font-bold mb-4">¡Bienvenido a Nova ERP!</h1>
+        <p className="mb-6 text-lg">Administra tu negocio con estilo ✨</p>
+        <Button className="bg-purple-600 hover:bg-purple-800 text-white px-6 py-2 rounded-full">
+          Empezar ahora
+        </Button>
       </div>
     </div>
-  )
+  );
 }
+
