@@ -1,6 +1,6 @@
 import './App.css'
 import { Routes, Route, Link } from 'react-router-dom'
-import Productos from './Productos' // importa tu componente Productos
+import Productos from "./modules/productos/Productos";
 
 export default function App() {
   return (
